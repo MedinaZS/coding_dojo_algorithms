@@ -7,8 +7,6 @@
 // Segundo: resuelve esto sin usar ningún bucle anidado.
 
 function removeDuplicates(array) {
-
-
     // Recorrer el array
     for (let i = 0; i < array.length; i++) {
         console.log("Valor i : ", i)
@@ -30,5 +28,5 @@ function removeDuplicates(array) {
 }
 
 // Test
-let array = [];
+let array = ["Amazon", "Ebay", "Facebook", "Facebook", "Facebook", "Google", "Google"];
 removeDuplicates(array);
